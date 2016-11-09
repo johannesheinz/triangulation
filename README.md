@@ -1,5 +1,5 @@
 # Simple Triangulation 2D
-A simple Python script to demonstrate the triangulation (subdivision of a planar object into triangles) of a two-dimensional area.
+A simple Python script to demonstrate the subdivision of a planar object into triangles.
 
 ## Requirements
 
@@ -8,7 +8,19 @@ A simple Python script to demonstrate the triangulation (subdivision of a planar
 
  
 ## Run
- 
+
+**Initialize**
+
+    pyvenv env
+
+**Start**
+
+    source env/bin/activate
+
+**Stop**
+
+    deactivate
+
 ```
 ./triangulation.py
 ``` 
