@@ -4,14 +4,17 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
 ## Requirements
 
  - [Python 3](https://www.python.org/)
- - [NumPy](http://www.numpy.org/)
 
  
-## Run
+## Installation
 
-**Initialize**
+    python setup.py install
 
     pyvenv env
+    pip install -r requirements.txt
+
+
+## Usage
 
 **Start**
 
@@ -21,6 +24,17 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
 
     deactivate
 
-```
-./triangulation.py
-``` 
+
+## Preparations
+
+Create and launch virtual environment
+
+    pyvenv env
+    source env/bin/activate
+
+Install dependencies:
+
+    pip install --upgrade pip
+    pip install pytest Sphinx numpy matplotlib
+    pip freeze > requirements.txt
+
