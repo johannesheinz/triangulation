@@ -8,12 +8,14 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
  
 ## Installation
 
-**Install dependencies**
+Install dependencies
+
     pyvenv env
     source env/bin/activate
     pip install -r requirements.txt
 
-**Install package**
+Install package
+
     python setup.py install
 
 
@@ -22,11 +24,11 @@ Further information about specific parts of the software development process.
 
 ### Virtual Environment
 
-**Start**
+Start
 
     source env/bin/activate
 
-**Stop**
+Stop
 
     deactivate
 
