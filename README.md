@@ -14,6 +14,12 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
     pip install -r requirements.txt
 
 
+## Test
+In the root directory you can execute all tests by calling the following command:
+
+    pytest
+
+
 ## Usage
 
 **Start**
