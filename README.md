@@ -1,4 +1,4 @@
-# Simple Triangulation 2D
+# Triangulation
 A simple Python script to demonstrate the subdivision of a planar object into triangles.
 
 ## Requirements
@@ -35,6 +35,12 @@ Create and launch virtual environment
 Install dependencies:
 
     pip install --upgrade pip
-    pip install pytest Sphinx numpy matplotlib
+    pip install numpy matplotlib pytest sphinx sphinx_rtd_theme
     pip freeze > requirements.txt
 
+
+## Documentation
+
+ - [Getting Started With setuptools and setup.py](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
+ - [Sphinx for Python documentation](http://gisellezeno.com/tutorials/sphinx-for-python-documentation.html)
+ - [pytest - Installation and Getting Started](http://doc.pytest.org/en/latest/getting-started.html)
