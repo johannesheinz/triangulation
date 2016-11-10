@@ -14,12 +14,6 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
     pip install -r requirements.txt
 
 
-## Test
-In the root directory you can execute all tests by calling the following command:
-
-    pytest
-
-
 ## Usage
 
 **Start**
@@ -29,6 +23,19 @@ In the root directory you can execute all tests by calling the following command
 **Stop**
 
     deactivate
+
+
+## Testing
+In the root directory you can execute all tests by calling the following command:
+
+    pytest
+
+
+## Documentation
+Produce an API documentation based on the docstrings in the source code in read-the-docs style:
+
+    cd doc
+    make html
 
 
 ## Developer Notes
