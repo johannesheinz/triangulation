@@ -8,13 +8,19 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
  
 ## Installation
 
-    python setup.py install
-
+**Install dependencies**
     pyvenv env
+    source env/bin/activate
     pip install -r requirements.txt
+
+**Install package**
+    python setup.py install
 
 
 ## Usage
+Further information about specific parts of the software development process.
+
+### Virtual Environment
 
 **Start**
 
@@ -25,16 +31,16 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
     deactivate
 
 
-## Testing
+### Testing
 In the root directory you can execute all tests by calling the following command:
 
     pytest
 
 
-## Documentation
-Produce an API documentation based on the docstrings in the source code in read-the-docs style:
+### Documentation
+Generate an API documentation based on the docstrings in the source code in read-the-docs style:
 
-    cd doc
+    cd docs
     make html
 
 
