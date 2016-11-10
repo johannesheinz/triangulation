@@ -14,8 +14,9 @@ Install dependencies
     source env/bin/activate
     pip install -r requirements.txt
 
-Install package
+Build and install package
 
+    python setup.py build
     python setup.py install
 
 
@@ -60,8 +61,14 @@ Create and launch virtual environment
 Install dependencies:
 
     pip install --upgrade pip
-    pip install numpy matplotlib pytest sphinx sphinx_rtd_theme
+    pip install numpy matplotlib pytest sphinx sphinx_rtd_theme sphinxcontrib-napoleon
     pip freeze > requirements.txt
+
+
+Autogenerate API documentation template
+
+    cd docs
+    sphinx-apidoc -f -o source/ ../triangulation
 
 
 ### References

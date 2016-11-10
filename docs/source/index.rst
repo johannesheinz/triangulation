@@ -3,24 +3,50 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Triangulation
-=============
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-   
-Autodoc
--------
+Package Triangulation
+=====================
 
 .. automodule:: triangulation
-   :members:
+    :no-members:
+    :undoc-members:
+    :show-inheritance:
 
-Indices and tables
-------------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Submodules
+==========
+
+Module triangulation.main
+-------------------------
+
+.. automodule:: triangulation.main
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module triangulation.calculate 
+------------------------------
+
+.. automodule:: triangulation.calculate
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module triangulation.input
+--------------------------
+
+.. automodule:: triangulation.input
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module triangulation.plot
+-------------------------
+
+.. automodule:: triangulation.plot
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
