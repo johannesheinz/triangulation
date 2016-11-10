@@ -25,7 +25,11 @@ A simple Python script to demonstrate the subdivision of a planar object into tr
     deactivate
 
 
-## Preparations
+## Developer Notes
+
+Here are some notes for myself to understand my development process and the references I used.
+
+### Preparations
 
 Create and launch virtual environment
 
@@ -39,7 +43,7 @@ Install dependencies:
     pip freeze > requirements.txt
 
 
-## Documentation
+### References
 
  - [Getting Started With setuptools and setup.py](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
  - [Sphinx for Python documentation](http://gisellezeno.com/tutorials/sphinx-for-python-documentation.html)
