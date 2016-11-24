@@ -6,7 +6,6 @@ imagesize==0.7.1
 Jinja2==2.8
 MarkupSafe==0.23
 matplotlib==1.5.3
-numpy==1.11.2
 pockets==0.3
 py==1.4.31
 Pygments==2.1.3
